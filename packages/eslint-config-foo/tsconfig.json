@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+
+    // Copied from: @tsconfig/node-lts
+    // https://github.com/tsconfig/bases/blob/main/bases/node-lts.json
+    "lib": ["es2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
+    "module": "nodenext",
+    "target": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "nodenext"
+  },
+
+  "include": ["./src/**/*.ts"]
+}

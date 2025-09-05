@@ -1,0 +1,9 @@
+{
+  "name": "@zamiell/eslint-config-foo",
+  "main": "src/index.js",
+  "type": "module",
+  "dependencies": {
+    "@zamiell/eslint-plugin-foo": "0.0.2",
+    "eslint": "9.35.0"
+  }
+}
